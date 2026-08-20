@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24f88cdc-094a-4319-bde0-8a07b217b251" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CursoemVideo-python3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/Desafio-6,1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/Desafio-6,2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/Teste-aula7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/ativ1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/ativ2-0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/ativ3-0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula07a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula08a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula08b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula08c.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula10-teste2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula21-pratica.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/aula21.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/prova-mundo2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/test-aula09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/teste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0-Aulas-testes/teste02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-PrimeirosPassos/ex001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-PrimeirosPassos/ex002.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Listas-parte1/ex078.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Listas-parte1/ex079.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Listas-parte1/ex080.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Listas-parte1/ex081.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Listas-parte1/ex082.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-Listas-parte1/ex083.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Listas-parte2/ex084.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Listas-parte2/ex085.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Listas-parte2/ex086.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Listas-parte2/ex087.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Listas-parte2/ex088.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-Listas-parte2/ex089.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-Dicionários/ex090.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-Dicionários/ex091.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-Dicionários/ex092.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-Dicionários/ex093.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-Dicionários/ex094.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-Dicionários/ex095.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Funções-parte1/ex096.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Funções-parte1/ex097.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Funções-parte1/ex098.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Funções-parte1/ex099.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-Funções-parte1/ex100.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Funções-parte2/ex101.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Funções-parte2/ex102.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Funções-parte2/ex103.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Funções-parte2/ex104.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Funções-parte2/ex105.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-Funções-parte2/ex106.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-TratandoDadoseContas/ex003.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-TratandoDadoseContas/ex004.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-TratandoDadoseContas/ex005.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-TratandoDadoseContas/ex006.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-TratandoDadoseContas/ex007.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-TratandoDadoseContas/ex008.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-TratandoDadoseContas/ex009.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-TratandoDadoseContas/ex010.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-TratandoDadoseContas/ex011.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-TratandoDadoseContas/ex012.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-TratandoDadoseContas/ex013.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-TratandoDadoseContas/ex014.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-TratandoDadoseContas/ex015.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-UsandoModulosPython/data/Saiba-DUAS-COISAS.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-UsandoModulosPython/ex016.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-UsandoModulosPython/ex017.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-UsandoModulosPython/ex018.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-UsandoModulosPython/ex019.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-UsandoModulosPython/ex020.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-UsandoModulosPython/ex021.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-UsandoModulosPython/ex022.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-UsandoModulosPython/ex023.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-UsandoModulosPython/ex024.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-UsandoModulosPython/ex025.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-UsandoModulosPython/ex026.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-UsandoModulosPython/ex027.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-CondiçõesPython/ex028.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-CondiçõesPython/ex029.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-CondiçõesPython/ex030.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-CondiçõesPython/ex031.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-CondiçõesPython/ex032.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-CondiçõesPython/ex033.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-CondiçõesPython/ex034.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-CondiçõesPython/ex035.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-CondiçõesAninhadas/ex036.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-CondiçõesAninhadas/ex037.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-CondiçõesAninhadas/ex038.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-CondiçõesAninhadas/ex039.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-CondiçõesAninhadas/ex040.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-CondiçõesAninhadas/ex041.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-CondiçõesAninhadas/ex042.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-CondiçõesAninhadas/ex043.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-CondiçõesAninhadas/ex044.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5-CondiçõesAninhadas/ex045.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-RepeticoesFor/ex046.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-RepeticoesFor/ex047.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-RepeticoesFor/ex048.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-RepeticoesFor/ex049.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-RepeticoesFor/ex050.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-RepeticoesFor/ex051.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-RepeticoesFor/ex052.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-RepeticoesFor/ex053.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-RepeticoesFor/ex054.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-RepeticoesFor/ex055.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-RepeticoesFor/ex056.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-RepetiçãoWhile/ex057.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-RepetiçãoWhile/ex058.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-RepetiçãoWhile/ex059.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-RepetiçãoWhile/ex060.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-RepetiçãoWhile/ex061.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-RepetiçãoWhile/ex062.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-RepetiçãoWhile/ex063.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-RepetiçãoWhile/ex064.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-RepetiçãoWhile/ex065.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-StopWhile/ex066.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-StopWhile/ex067.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-StopWhile/ex068.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-StopWhile/ex069.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-StopWhile/ex070.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8-StopWhile/ex071.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-Tuplas/ex072.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-Tuplas/ex073.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-Tuplas/ex074.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-Tuplas/ex075.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-Tuplas/ex076.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9-Tuplas/ex077.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JhonatasS01"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JhonatasS01/Python3-Aulas.git",
+    "accountId": "604a27c9-41b3-41a3-800a-7f4993ae9719"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3CVGo5zTsKHVOrAknkdT9RO4YoH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.ativ1.executor": "Run",
+    "Python.ativ2-0.executor": "Run",
+    "Python.ativ2.executor": "Run",
+    "Python.ativ3-0.executor": "Run",
+    "Python.ativ3.executor": "Run",
+    "Python.ex078.executor": "Run",
+    "Python.ex079.executor": "Run",
+    "Python.ex080.executor": "Run",
+    "Python.ex081.executor": "Run",
+    "Python.ex082.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/jhonatas/Documentos/Python-CursoEmVideo/PythonModularizacao",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/0-Aulas-testes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.ex082">
+    <configuration name="ex078" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CursoemVideo-python3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10-Listas-parte1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10-Listas-parte1/ex078.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex079" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CursoemVideo-python3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10-Listas-parte1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10-Listas-parte1/ex079.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex080" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CursoemVideo-python3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10-Listas-parte1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10-Listas-parte1/ex080.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex081" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CursoemVideo-python3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10-Listas-parte1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10-Listas-parte1/ex081.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex082" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CursoemVideo-python3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10-Listas-parte1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10-Listas-parte1/ex082.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ex082" />
+        <item itemvalue="Python.ex081" />
+        <item itemvalue="Python.ex080" />
+        <item itemvalue="Python.ex079" />
+        <item itemvalue="Python.ex078" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-821f704e66d9-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.9437.214" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24f88cdc-094a-4319-bde0-8a07b217b251" name="Changes" comment="" />
+      <created>1776463496109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776463496109</updated>
+      <workItem from="1776463497123" duration="384000" />
+      <workItem from="1779159316049" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CursoemVideo_python3$ex078.coverage" NAME="ex078 Coverage Results" MODIFIED="1776463540600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-Listas-parte1" />
+  </component>
+</project>

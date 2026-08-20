@@ -1,0 +1,8 @@
+print('=+'*10)
+print('\033[31mCALCULADORA DE MÉDIA\033[m')
+print('=+'*10)
+N1 = float(input('Digite a primeira nota: '))
+N2 = float(input('Digite a segunda nota: '))
+print('-'*25)
+print('\033[33mA média do aluno e: \033[m{:.1f}'.format((N1+N2) / 2))
+print('-'*25)
