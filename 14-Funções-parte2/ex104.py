@@ -1,7 +1,7 @@
 def leia_int(msg):
     """
-    -> Input de números inteiros com validação se for string.
-    :param msg: Entrada do valor númerico em forma de string.
+    -> Input de números inteiros com validação.
+    :param msg: Entrada da mensagem do input.
     :return: Retorna o valor digitado ou erro se for string.
     """
     ok = False

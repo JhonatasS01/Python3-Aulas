@@ -1,24 +1,36 @@
 def leia_int(msg):
     """
-    -> Input de números inteiros com validação se for string.
-    :param msg: Entrada do valor númerico em forma de string.
+    -> Input de números inteiros com validação.
+    :param msg: Entrada da mensagem do input.
     :return: Retorna o valor digitado ou erro se for string.
     """
-    ok = False
-    valor = 0
     print('\n' + '-' * 30)
     while True:
-        n = str(input(msg))
-        if n.isnumeric():
-            valor = int(n)
-            ok = True
-        else:
-            print('\033[31mErro, só e permitido números\033[m')
-        if ok:
-            break
-    return valor
+        try:
+            n = int(input(msg))
+            return n
+        except (TypeError, ValueError):
+            print('\033[1;31mErro! Tivemos problemas com o tipo do valor digitado.\033[m')
+        except KeyboardInterrupt:
+            print('\033[1;31mO usuário preferiu não informar os dados.\033[m')
 
-#program primary
-num = leia_int('Digite um valor: ')
-print(f'Você acabou de digitar o número {num}')
+def leia_float(msg):
+    """
+    -> Input de números reais com validação.
+    :param msg: Entrada da mensagem do input.
+    :return: Retorna o valor digitado ou erro se for string.
+    """
+    while True:
+        try:
+            n = float(input(msg).replace(',', '.'))
+            return n
+        except (TypeError, ValueError):
+            print('\033[1;31mErro! Tivemos problemas com o tipo do valor digitado.\033[m')
+        except KeyboardInterrupt:
+            print('\033[1;31mO usuário preferiu não informar os dados.\033[m')
+
+#Primary program
+inteiro = leia_int('Digite um valor Inteiro: ')
+real = leia_float('Digite um valor Real:')
+print(f'O valor inteiro digitado foi {inteiro} e o real foi {real}')
 #help(leia_int)
