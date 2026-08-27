@@ -5,11 +5,21 @@ def file(nome, content):
     :param content: Contéudo a ser colocado dentro do arquivo.
     :return: Retorna o contéudo dentro do arquivo e cria um arquivo local txt.
     """
-    #Escrita do arquivo
-    with open(f'{nome}.txt', 'w') as arquivo:
+    #Escrita do arquivo sem apagar
+    #Escrita temporaria: w
+    with open(f'{nome}.txt', 'a') as arquivo:
         arquivo.write(str(content))
-    #Leitura do arquivo
-    with open(f'{nome}.txt', 'r') as arquivo:
-        lista = arquivo.readline()
-    return lista
+    return arquivo
 
+def tabela(nome, content):
+    """
+    -> Criação da tabela com nome e idade.
+    :param nome: Nome da tabela.
+    :param content: Dados como nome e idade para a tabela.
+    :return: Retorna todos os dados formatado em uma tabela.
+    """
+    print('-' * 40)
+    print(nome.center(40))
+    print('-' * 40)
+    for indice, valor in enumerate(content):
+        print(f'{content[indice]["Nome"]:<20}{content[indice]["Idade"]:>10} anos')

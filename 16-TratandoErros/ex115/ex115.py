@@ -1,7 +1,7 @@
 from dados import dict_to_list
-from tools import file
+import tools
 
-dados = dict_to_list('Nome', 'Idade')
-conteudo = file('pessoas', dados)
+dados = dict_to_list('Nome', 'Idade', 'pessoas')
+conteudo = tools.file('pessoas', dados)
 
-print(conteudo)
+tools.tabela('PESSOAS CADASTRADAS', dados)
