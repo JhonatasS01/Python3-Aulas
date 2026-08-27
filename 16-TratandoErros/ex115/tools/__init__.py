@@ -1,14 +1,15 @@
-def file(nome, content):
+import json
+
+def file_json(nome, content):
     """
-    -> Função para colocar um contéudo dentro de um arquivo txt.
-    :param nome: Nome do arquivo
-    :param content: Contéudo a ser colocado dentro do arquivo.
+    -> Função para colocar um conteúdo dentro de um arquivo txt em formato json.
+    :param nome: Nome do arquivo.
+    :param content: Conteúdo obrigatório para colocar no arquivo.
     :return: Retorna o contéudo dentro do arquivo e cria um arquivo local txt.
     """
-    #Escrita do arquivo sem apagar
-    #Escrita temporaria: w
-    with open(f'{nome}.txt', 'a') as arquivo:
-        arquivo.write(str(content))
+    #Escrita do arquivo sem apagar.
+    with open(f'{nome}.txt', 'w') as arquivo:
+        json.dump(content, arquivo, indent=4)
     return arquivo
 
 def tabela(nome, content):
@@ -21,5 +22,5 @@ def tabela(nome, content):
     print('-' * 40)
     print(nome.center(40))
     print('-' * 40)
-    for indice, valor in enumerate(content):
-        print(f'{content[indice]["Nome"]:<20}{content[indice]["Idade"]:>10} anos')
+    for valor in content:
+        print(f'{valor["Nome"]:<20}{valor["Idade"]:>10} anos')

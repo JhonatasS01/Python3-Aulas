@@ -1,5 +1,7 @@
+from time import sleep
+import json
+
 def dict_to_list(dic1='', dic2='', file=''):
-    from time import sleep
     """
     -> Essa função pega dois dados de um dicionário e coloca em uma lista, para
     facilitar a manipulação, perguntando se o usuário deseja parar ou não.
@@ -11,11 +13,14 @@ def dict_to_list(dic1='', dic2='', file=''):
     não havendo limite de coleta.
     """
     dados = list()
-    # Leitura do arquivo
-    with open(f'{file}.txt', 'r') as arquivo:
-        conteudo = arquivo.readline()
-        dados.append(conteudo)
+    # Leitura do arquivo em json
+    try:
+        with open(f'{file}.txt', 'r') as arquivo:
+            dados = json.load(arquivo)
+    except (FileNotFoundError, json.JSONDecodeError):
+        dados = list()
 
+    # Inserindo os dados.
     while True:
         try:
             itens = dict()
