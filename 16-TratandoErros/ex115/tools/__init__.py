@@ -33,9 +33,20 @@ def tabela(nome, file=''):
         print(f'{valor["Nome"]:<20}{valor["Idade"]:>10} anos')
 
 def linha(tamanho=0):
+    """
+    -> Linha para separar titulos no ex115.
+    :param tamanho: tamanho da linha para multiplicar pelo sinbolo '-'.
+    :return: retorna o simbolo '-' multiplicado pelo tamanho informado.
+    """
     print('-' * tamanho)
 
 def cores(cor, texto):
+    """
+    -> Função para cores para o ex115.
+    :param cor: Só tem disponivel 2 cores 'amarelo' e 'azul' junto do 'limpar'.
+    :param texto: Texto a ser colorido.
+    :return: Retorna a cor definida apenas no texto informado.
+    """
     coresp = {'amarelo': '\033[1;33m',
              'azul': '\033[1;34m',
              'limpar': '\033[m'
