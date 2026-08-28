@@ -12,15 +12,33 @@ def file_json(nome, content):
         json.dump(content, arquivo, indent=4)
     return arquivo
 
-def tabela(nome, content):
+def tabela(nome, file=''):
     """
     -> Criação da tabela com nome e idade.
     :param nome: Nome da tabela.
-    :param content: Dados como nome e idade para a tabela.
+    :param file: Nome do arquivo a ser lido para a tabela.
     :return: Retorna todos os dados formatado em uma tabela.
     """
+    # Leitura do arquivo em json
+    try:
+        with open(f'{file}.txt', 'r') as arquivo:
+            dados = json.load(arquivo)
+    except (FileNotFoundError, json.JSONDecodeError):
+        dados = list()
+    # Criação da tabela
     print('-' * 40)
     print(nome.center(40))
     print('-' * 40)
-    for valor in content:
+    for valor in dados:
         print(f'{valor["Nome"]:<20}{valor["Idade"]:>10} anos')
+
+def linha(tamanho=0):
+    print('-' * tamanho)
+
+def cores(cor, texto):
+    coresp = {'amarelo': '\033[1;33m',
+             'azul': '\033[1;34m',
+             'limpar': '\033[m'
+             }
+    new = f'{coresp[cor]}{texto}{coresp["limpar"]}'
+    return new
