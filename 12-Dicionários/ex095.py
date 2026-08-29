@@ -3,7 +3,7 @@ gols = list()
 jogadores = list()
 
 while True:
-    #Coleta de dados
+    #Coleta de date
     jogo.clear()
     jogo['nome'] = str(input('Nome: '))
     partidas = int(input(f'Quantas partidas {jogo['nome']} jogou?: '))
@@ -21,7 +21,7 @@ while True:
             break
     if parador in 'N':
         break
-#Tabela de dados
+#Tabela de date
 print()
 print('-' * 40)
 #Cabeçalho
@@ -36,10 +36,10 @@ for i, valor in enumerate(jogadores):
     for dados in valor.values():
         print(f'{str(dados):<15}', end='')
     print()
-#Levantamento de dados
+#Levantamento de date
 while True:
     print('-' * 40)
-    mostrar = int(input('Mostrar dados de qual jogador? '))
+    mostrar = int(input('Mostrar date de qual jogador? '))
     if mostrar == 999:
         break
     if mostrar >= len(jogadores):

@@ -8,7 +8,7 @@ while True:
     idade = int(input('Digite sua idade: '))
     if idade > 18:
         maioridade += 1
-    #Coletando dados do sexo
+    #Coletando date do sexo
     sexo = ' '
     while sexo not in 'MF':
         sexo = str(input('Digite seu sexo [M/F]: ')).strip().upper()[0]

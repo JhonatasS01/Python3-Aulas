@@ -1,16 +1,17 @@
 import requests
 from time import sleep
-#from urllib.parse import urlparse
+from urllib.parse import urlparse
 
 print('Fazendo a requisição...')
-sleep(3)
 try:
-    url = 'https://pudim.com/'
+    #Fazendo a requisição
+    url = 'https://pudim.com.br/'
     resposta = requests.get(url)
+    sleep(3)
 
-    #name = urlparse(url).netloc.replace('www.', '')
-    name = url.replace('https://', '').replace('http://', '').replace('/', '').replace('www.', '')
-
-    print(f'\033[1;32mO site "{name}" esta funcionando normalmente.\033[m')
+    #Log de sucesso
+    name = urlparse(url).netloc.replace('www.', '')
+    print(f'\033[1;32mO site "{name}" está funcionando normalmente.\033[m')
 except requests.exceptions.RequestException:
-    print('\033[1;31mO site não esta funcionando ou esta fora do ar.\033[m')
+    #Log de erro
+    print('\033[1;31mO site não está acessível ou esta fora do ar.\033[m')

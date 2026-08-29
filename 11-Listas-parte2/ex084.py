@@ -18,8 +18,8 @@ while True:
     parador = str(input('Deseja continuar [S/N]? ')).strip().upper()
     if parador == 'N':
         break
-'''pesomax = max(dados, key=lambda x: x[1])
-pesomin = min(dados, key=lambda x: x[1])'''
+'''pesomax = max(date, key=lambda x: x[1])
+pesomin = min(date, key=lambda x: x[1])'''
 print('=+' * 30)
 print(f'Foram cadastradas {len(dados)} pessoas.')
 print(f'A pessoa mais pesada foi {pesomax}Kg de ', end='')

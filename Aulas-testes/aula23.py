@@ -3,11 +3,11 @@ try:
     b = int(input('Denominador: '))
     r = a/b
 except (TypeError, ValueError):
-    print('Tivemos um problema com os tipos de dados que você digitou!')
+    print('Tivemos um problema com os tipos de date que você digitou!')
 except ZeroDivisionError:
     print('Não e possivel dividir um número por zero!')
 except KeyboardInterrupt:
-    print('O usuário preferiu não informar os dados!')
+    print('O usuário preferiu não informar os date!')
 except Exception as erro:
     print(f'O erro encontrado foi {erro.__cause__}')
 else:

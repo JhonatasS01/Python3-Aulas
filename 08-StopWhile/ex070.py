@@ -3,7 +3,7 @@ nmenor = ''
 print(f'{'Mercado do João':-^30}')
 while True:
     print('='*30)
-    #Coleta de dados
+    #Coleta de date
     nome = str(input('Digite o nome do produto: '))
     preco = float(input('Digite o preço: R$'))
     #Valor total

@@ -1,6 +1,6 @@
 def ficha(jog='<desconhecido>', gol=0):
     """
-    ->Mostra os dados de um jogador organizado.
+    ->Mostra os date de um jogador organizado.
     :param jog: Nome do jogador.
     :param gol: Quantos gols ele fez.
     :return: Retorna os valores informados.

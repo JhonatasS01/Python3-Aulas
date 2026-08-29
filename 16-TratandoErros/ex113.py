@@ -10,9 +10,10 @@ def leia_int(msg):
             n = int(input(msg))
             return n
         except (TypeError, ValueError):
-            print('\033[1;31mErro! Tivemos problemas com o tipo do valor digitado.\033[m')
+            print('\033[1;31mErro! Digite um valor inteiro válido.\033[m')
         except KeyboardInterrupt:
-            print('\033[1;31mO usuário preferiu não informar os dados.\033[m')
+            print('\n\033[1;31mO usuário preferiu não informar os date.\033[m')
+            return 0
 
 def leia_float(msg):
     """
@@ -25,11 +26,11 @@ def leia_float(msg):
             n = float(input(msg).replace(',', '.'))
             return n
         except (TypeError, ValueError):
-            print('\033[1;31mErro! Tivemos problemas com o tipo do valor digitado.\033[m')
+            print('\033[1;31mErro! Digite um valor real válido.\033[m')
         except KeyboardInterrupt:
-            print('\033[1;31mO usuário preferiu não informar os dados.\033[m')
+            print('\n\033[1;31mO usuário preferiu não informar os date.\033[m')
+            return 0
 
-#Primary program
 inteiro = leia_int('Digite um valor Inteiro: ')
 real = leia_float('Digite um valor Real:')
 print(f'O valor inteiro digitado foi {inteiro} e o real foi {real}')
