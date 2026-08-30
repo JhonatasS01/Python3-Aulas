@@ -1,6 +1,11 @@
 from time import sleep
-from date import dict_to_list
-from tools import *
+from lib.arquivo import *
+from lib.interface import *
+
+arq = 'pessoas.txt'
+
+if not arq_existe(arq):
+    arq_create(arq)
 
 while True:
     # ----- Impressão do menu de opções -----
@@ -8,27 +13,18 @@ while True:
 
     #------ Validação de opções ------
     if opcao == 1:
-        # Chamando a função tabela.
-        tabela(
-            'PESSOAS CADASTRADAS',
-            'pessoas'
-        )
+        # Listando conteúdo de um arquivo
+        arq_writer(arq)
     elif opcao == 2:
+        # Cadastro de uma nova pessoa
         cabecalho('NOVO CADASTRO')
-        # Informando o nome dos dicionarios
-        dados = dict_to_list(
-            'Nome',
-            'Idade',
-            'pessoas'
-        )
-        # Criando um arquivo txt com nome pessoas.
-        file_json(
-            'pessoas', dados
-        )
+        nome = str(input('Nome: '))
+        idade = int(input('Idade: '))
+        cadastrar(arq, nome, idade)
     elif opcao == 3:
         cabecalho('Saindo do sistema... Até logo!')
-        sleep(3)
+        sleep(1)
         break
     else:
         print(f'\033[31mErro! "{opcao}" e um valor inválido, tente novamente\033[m')
-    sleep(2)
+    sleep(1)

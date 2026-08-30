@@ -12,7 +12,7 @@ def leia_int(msg):
         except (TypeError, ValueError):
             print('\033[1;31mErro! Digite um valor inteiro válido.\033[m')
         except KeyboardInterrupt:
-            print('\n\033[1;31mO usuário preferiu não informar os date.\033[m')
+            print('\n\033[1;31mO usuário preferiu não informar os arquivo.\033[m')
             return 0
 
 def leia_float(msg):
@@ -28,7 +28,7 @@ def leia_float(msg):
         except (TypeError, ValueError):
             print('\033[1;31mErro! Digite um valor real válido.\033[m')
         except KeyboardInterrupt:
-            print('\n\033[1;31mO usuário preferiu não informar os date.\033[m')
+            print('\n\033[1;31mO usuário preferiu não informar os arquivo.\033[m')
             return 0
 
 inteiro = leia_int('Digite um valor Inteiro: ')

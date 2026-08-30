@@ -1,35 +1,3 @@
-import json
-
-def file_json(nome, content):
-    """
-    -> Função para colocar um conteúdo dentro de um arquivo txt em formato json.
-    :param nome: Nome do arquivo.
-    :param content: Conteúdo obrigatório para colocar no arquivo.
-    :return: Retorna o contéudo dentro do arquivo e cria um arquivo local txt.
-    """
-    #Escrita do arquivo sem apagar.
-    with open(f'{nome}.txt', 'w') as arquivo:
-        json.dump(content, arquivo, indent=4)
-    return arquivo
-
-def tabela(nome, file=''):
-    """
-    -> Criação da tabela com nome e idade.
-    :param nome: Nome da tabela.
-    :param file: Nome do arquivo a ser lido para a tabela.
-    :return: Retorna todos os date formatado em uma tabela.
-    """
-    # Leitura do arquivo em json
-    try:
-        with open(f'{file}.txt', 'r') as arquivo:
-            dados = json.load(arquivo)
-    except (FileNotFoundError, json.JSONDecodeError):
-        dados = list()
-    # Criação da tabela
-    cabecalho(nome)
-    for valor in dados:
-        print(f'{valor["Nome"]:<20}{valor["Idade"]:>10} anos')
-
 def leia_int(msg):
     """
     -> Input de números inteiros com validação.
@@ -48,30 +16,40 @@ def leia_int(msg):
 
 def linha(tam=40):
     """
-    -> Linha para separar titulos no ex115.
+    -> Linha para separar titulos no deletar.
     :param tam: tamanho da linha para multiplicar pelo sinbolo '-'.
     :return: retorna o simbolo '-' multiplicado pelo tamanho, o padrão e 40.
     """
     return '-' * tam
 
 def cabecalho(txt):
+    """
+    -> Cabeçalhos do ex115
+    :param txt: Nome do cabeçalho.
+    :return: Retorna o cabeçalho com o nome informado.
+    """
     print(linha())
     print(txt.center(40))
     print(linha())
 
 def menu(lista):
+    """
+    -> Menu do ex115
+    :param lista: Lista de opções para o programa.
+    :return: Retorna as opções informadas e a função leia_int para seleção.
+    """
     cabecalho('MENU PRINCIPAL')
     c = 1
     for item in lista:
         print(f'\033[33m{c}\033[m - \033[34m{item}\033[m')
         c += 1
     print(linha())
-    opc = leia_int('\033[33mSua Opção:\033[m ')
+    opc = leia_int('\033[32mSua Opção:\033[m ')
     return opc
 
 '''def cores(cor, texto):
     """
-    -> Função para cores para o ex115.
+    -> Função para cores para o deletar.
     :param cor: Só tem disponivel 2 cores 'amarelo' e 'azul' junto do 'limpar'.
     :param texto: Texto a ser colorido.
     :return: Retorna a cor definida apenas no texto informado.

@@ -6,7 +6,7 @@ print('+='*15)
 fim = 1
 N = 10
 cont = 0
-#pegando os date
+#pegando os arquivo
 termo = int(input('Inicio: '))
 PA = int(input('Salto: '))
 
