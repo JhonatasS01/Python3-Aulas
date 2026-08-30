@@ -41,22 +41,23 @@ def menu(lista):
     cabecalho('MENU PRINCIPAL')
     c = 1
     for item in lista:
-        print(f'\033[33m{c}\033[m - \033[34m{item}\033[m')
+        print(f'{cores("amarelo",c)} - {cores("azul", item)}')
         c += 1
     print(linha())
-    opc = leia_int('\033[32mSua Opção:\033[m ')
+    opc = leia_int(f'{cores("verde", "Sua Opção: ")}')
     return opc
 
-'''def cores(cor, texto):
+def cores(cor, texto):
     """
     -> Função para cores para o deletar.
-    :param cor: Só tem disponivel 2 cores 'amarelo' e 'azul' junto do 'limpar'.
+    :param cor: Só tem disponivel 3 cores 'amarelo', 'azul' e 'verde' junto do 'limpar'.
     :param texto: Texto a ser colorido.
     :return: Retorna a cor definida apenas no texto informado.
     """
     coresp = {'amarelo': '\033[1;33m',
              'azul': '\033[1;34m',
+              'verde': '\033[1;32m',
              'limpar': '\033[m'
              }
     new = f'{coresp[cor]}{texto}{coresp["limpar"]}'
-    return new'''
+    return new
